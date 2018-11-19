@@ -17,7 +17,7 @@ public class IpRegex {
         boolean matchFound = matcher.matches();
         System.out.println(input + " - matches: " + matchFound);
 
-        input = "this passes the test";
+        input = "121.234.12.12";
         // reset the matcher with a new input sequence
         matcher.reset(input);
         matchFound = matcher.matches();
